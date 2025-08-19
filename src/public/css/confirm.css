@@ -1,0 +1,44 @@
+/* ラベルの強調 */
+label {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #212529;
+    /* Bootstrapの標準テキストカラー */
+}
+
+/* readonlyのinput, textareaの見た目 */
+input[readonly],
+textarea[readonly] {
+    background-color: #e9ecef;
+    /* 薄いグレー */
+    color: #495057;
+    border: 1px solid #ced4da;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem;
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+    /* textareaのリサイズ禁止 */
+}
+
+/* テキストエリア高さ調整 */
+textarea[readonly] {
+    min-height: 120px;
+}
+
+/* ボタンの横並び余白 */
+button.btn+button.btn {
+    margin-left: 0.5rem;
+}
+
+/* 全体コンテナの見た目 */
+.container {
+    max-width: 700px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: 30px 40px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}

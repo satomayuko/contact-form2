@@ -1,0 +1,19 @@
+/* Bootstrapの.containerはそのままにし、独自に最大幅指定するならクラス名を別途追加推奨 */
+.custom-container {
+    max-width: 700px;
+}
+
+/* 必須の文字を薄いグレーに */
+.text-lighter {
+    color: #ccc !important;
+}
+
+/* フォームコントロールの最大幅を制限 */
+.form-control {
+    max-width: 300px;
+}
+
+/* textareaのみ最大幅を広く */
+textarea.form-control {
+    max-width: 400px;
+}
